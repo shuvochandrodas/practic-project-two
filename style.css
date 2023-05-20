@@ -15,6 +15,9 @@ h1{
 h2{
     font-size:50px;
 }
+h4{
+    font-size:30px;
+}
 .flexbox{
     display:flex;
 }
@@ -72,10 +75,11 @@ a{
 .about-me{
     background-image:url('images/shapes/7.png');
     background-repeat:no-repeat;
-    padding:40px 0;
+    padding-top:40px;
 }
 .about-me-img{
     width:50%;
+    vertical-align:middle;
 }
 .about-me .left-content{}
 .about-me .right-content{
@@ -84,4 +88,47 @@ a{
 .about-me .right-content p{
     color:#000;
     text-align:justify;
+}
+
+
+.recipie{
+    margin:25px 0;
+}
+.recipie .top-content{
+    text-align:center;
+    width:50%;
+    margin:0 auto;
+}
+.single-recipie-col{
+    width:48%;
+    margin-right:4%;
+    margin-top:30px;
+    padding:20px;
+    border-radius:20px;
+    box-shadow:10px 10px 16px #bdb7b759;
+}
+.no-margin{
+    margin-right:0;
+}
+
+
+.our-history{
+    margin:10% 10%;
+}
+.our-single-history-col{
+    justify-content: space-between;
+    cursor:pointer;
+    box-shadow:10px 10px 16px #bdb7b759;
+    padding:10px;
+}
+
+.our-history h4, p{
+    text-align:center;
+}
+.footer{
+    background-color:rgb(46, 44, 44);
+    padding:40px;
+}
+.footer .content{
+    text-align:center;
 }
