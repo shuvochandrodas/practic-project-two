@@ -12,6 +12,9 @@ h1{
     line-height:70px;
     font-weight:700;
 }
+h2{
+    font-size:50px;
+}
 .flexbox{
     display:flex;
 }
@@ -32,6 +35,9 @@ a{
     margin-top:20px;
     display:inline-block;
 }
+.middle-container{
+    margin:0 10%;
+}
 .half-width{
     width:50%;
 }
@@ -45,7 +51,7 @@ a{
 
 
 .feature{
-    margin:0 10%;
+
 }
 .feature .left-content{
     margin-top:150px;
@@ -59,4 +65,23 @@ a{
 }
 .feature-img{
     width:100%;
+}
+
+
+
+.about-me{
+    background-image:url('images/shapes/7.png');
+    background-repeat:no-repeat;
+    padding:40px 0;
+}
+.about-me-img{
+    width:50%;
+}
+.about-me .left-content{}
+.about-me .right-content{
+    margin-top:100px;
+}
+.about-me .right-content p{
+    color:#000;
+    text-align:justify;
 }
